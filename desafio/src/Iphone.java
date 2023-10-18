@@ -4,11 +4,11 @@ import interfaces.ReprodutorMusical;
 
 
 public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
-    boolean ligado;
-    String numeroDeTelefone;
-    String appMusica;
-    String appNavegador;
-    String appChamadas;
+    private boolean ligado;
+    private String numeroDeTelefone;
+    private String appMusica;
+    private String appNavegador;
+    private String appChamadas;
 
     public Iphone(String numeroDeTelefone, String appMusica, String appNavegador, String appChamadas) {
         this.numeroDeTelefone = numeroDeTelefone;
